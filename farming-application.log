@@ -1,0 +1,252 @@
+2020-12-22T15:33:21 PM, 156Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 21736 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:33:21 PM, 165Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:33:23 PM, 047Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:33:23 PM, 350Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 263ms. Found 3 JPA repository interfaces.
+2020-12-22T15:33:24 PM, 453Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:33:25 PM, 014Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:33:25 PM, 645Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:33:25 PM, 889Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:33:26 PM, 170Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:33:26 PM, 498Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:33:27 PM, 350Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:33:28 PM, 866Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:33:28 PM, 880Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:33:30 PM, 449Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:33:31 PM, 191Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:33:32 PM, 009Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:33:32 PM, 288Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 12.034 seconds (JVM running for 15.238)
+2020-12-22T15:33:32 PM, 949Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - The product quantity Cadbury is insufficient!
+2020-12-22T15:33:33 PM, 030Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:33:33 PM, 049Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:33:33 PM, 051Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:33:33 PM, 067Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:33:33 PM, 069Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:33:33 PM, 077Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:33:33 PM, 078Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:33:33 PM, 078Z WARN  o.s.b.f.s.DisposableBeanAdapter:267 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-12-22T15:33:33 PM, 079Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:33:33 PM, 113Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-12-22T15:35:21 PM, 405Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 19156 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:35:21 PM, 409Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:35:23 PM, 350Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:35:23 PM, 558Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 180ms. Found 3 JPA repository interfaces.
+2020-12-22T15:35:24 PM, 541Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:35:25 PM, 005Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:35:25 PM, 540Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:35:25 PM, 724Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:35:26 PM, 007Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:35:26 PM, 317Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:35:27 PM, 111Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:35:28 PM, 684Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:35:28 PM, 698Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:35:30 PM, 112Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:35:30 PM, 875Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:35:31 PM, 706Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:35:31 PM, 974Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 11.383 seconds (JVM running for 14.27)
+2020-12-22T15:35:32 PM, 396Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - The product quantity Cadbury is insufficient!
+2020-12-22T15:35:32 PM, 490Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:35:32 PM, 509Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:35:32 PM, 510Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:35:32 PM, 523Z ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:541 - HHH000478: Unsuccessful: drop table order_lines if exists
+2020-12-22T15:35:32 PM, 525Z ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:541 - HHH000478: Unsuccessful: drop table orders if exists
+2020-12-22T15:35:32 PM, 526Z ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:541 - HHH000478: Unsuccessful: drop table products if exists
+2020-12-22T15:35:32 PM, 527Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:35:32 PM, 528Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:35:32 PM, 530Z WARN  o.s.b.f.s.DisposableBeanAdapter:267 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-12-22T15:35:32 PM, 534Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:35:32 PM, 555Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-12-22T15:36:54 PM, 191Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 12388 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:36:54 PM, 198Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:36:56 PM, 829Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:36:57 PM, 043Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 193ms. Found 3 JPA repository interfaces.
+2020-12-22T15:36:58 PM, 356Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:36:59 PM, 053Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:37:00 PM, 013Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:37:00 PM, 337Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:37:00 PM, 678Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:37:01 PM, 203Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:37:02 PM, 117Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:37:04 PM, 330Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:37:04 PM, 353Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:37:08 PM, 985Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:37:09 PM, 976Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:37:11 PM, 083Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:37:11 PM, 419Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 18.81 seconds (JVM running for 24.203)
+2020-12-22T15:37:25 PM, 130Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - The product quantity Cadbury is insufficient!
+2020-12-22T15:38:29 PM, 172Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 4040 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:38:29 PM, 176Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:38:30 PM, 922Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:38:31 PM, 155Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 194ms. Found 3 JPA repository interfaces.
+2020-12-22T15:38:32 PM, 257Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:38:32 PM, 775Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:38:33 PM, 280Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:38:33 PM, 468Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:38:33 PM, 704Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:38:34 PM, 064Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:38:34 PM, 844Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:38:36 PM, 338Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:38:36 PM, 353Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:38:37 PM, 738Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:38:38 PM, 522Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:38:39 PM, 308Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:38:39 PM, 577Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 11.264 seconds (JVM running for 14.349)
+2020-12-22T15:38:40 PM, 185Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:38:40 PM, 247Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:38:40 PM, 257Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:38:40 PM, 259Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:38:40 PM, 274Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:38:40 PM, 276Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:38:40 PM, 279Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:38:40 PM, 283Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:38:40 PM, 283Z WARN  o.s.b.f.s.DisposableBeanAdapter:267 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-12-22T15:38:40 PM, 284Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:38:40 PM, 302Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-12-22T15:45:52 PM, 647Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 3060 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:45:52 PM, 653Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:45:54 PM, 209Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:45:54 PM, 392Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 159ms. Found 3 JPA repository interfaces.
+2020-12-22T15:45:55 PM, 360Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:45:55 PM, 734Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:45:56 PM, 176Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:45:56 PM, 343Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:45:56 PM, 533Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:45:56 PM, 789Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:45:57 PM, 444Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:45:58 PM, 676Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:45:58 PM, 691Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:45:59 PM, 817Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:46:00 PM, 427Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:46:01 PM, 064Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:46:01 PM, 274Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 9.338 seconds (JVM running for 11.761)
+2020-12-22T15:46:01 PM, 639Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:46:01 PM, 685Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:46:01 PM, 709Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:46:01 PM, 717Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:46:01 PM, 719Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:46:01 PM, 725Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:46:01 PM, 729Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:46:01 PM, 733Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:46:01 PM, 734Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:46:01 PM, 735Z WARN  o.s.b.f.s.DisposableBeanAdapter:267 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-12-22T15:46:01 PM, 736Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:46:01 PM, 757Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-12-22T15:46:19 PM, 507Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 14348 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:46:19 PM, 513Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:46:21 PM, 512Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:46:21 PM, 706Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 166ms. Found 3 JPA repository interfaces.
+2020-12-22T15:46:22 PM, 631Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:46:23 PM, 064Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:46:23 PM, 732Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:46:23 PM, 937Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:46:24 PM, 192Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:46:24 PM, 609Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:46:25 PM, 444Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:46:27 PM, 146Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:46:27 PM, 161Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:46:28 PM, 624Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:46:29 PM, 337Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:46:30 PM, 211Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:46:30 PM, 498Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 12.025 seconds (JVM running for 16.281)
+2020-12-22T15:46:31 PM, 286Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:46:49 PM, 145Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:46:49 PM, 177Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:46:49 PM, 185Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:46:49 PM, 186Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:46:49 PM, 190Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:46:49 PM, 191Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:46:49 PM, 194Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:46:49 PM, 195Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:46:49 PM, 196Z WARN  o.s.b.f.s.DisposableBeanAdapter:267 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-12-22T15:46:49 PM, 197Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:46:49 PM, 205Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-12-22T15:48:36 PM, 683Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 20988 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:48:36 PM, 687Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:48:38 PM, 230Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:48:38 PM, 419Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 164ms. Found 3 JPA repository interfaces.
+2020-12-22T15:48:39 PM, 503Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:48:39 PM, 977Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:48:40 PM, 420Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:48:40 PM, 584Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:48:40 PM, 790Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:48:41 PM, 061Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:48:41 PM, 749Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:48:42 PM, 986Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:48:43 PM, 000Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:48:44 PM, 126Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:48:44 PM, 688Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:48:45 PM, 333Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:48:45 PM, 546Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 9.571 seconds (JVM running for 12.225)
+2020-12-22T15:48:46 PM, 076Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:48:46 PM, 116Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:48:46 PM, 125Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:48:46 PM, 127Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:48:46 PM, 132Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:48:46 PM, 134Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:48:46 PM, 138Z WARN  o.h.e.j.s.SqlExceptionHelper:137 - SQL Error: 90121, SQLState: 90121
+2020-12-22T15:48:46 PM, 139Z ERROR o.h.e.j.s.SqlExceptionHelper:142 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-12-22T15:48:46 PM, 141Z WARN  o.s.b.f.s.DisposableBeanAdapter:267 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-12-22T15:48:46 PM, 142Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:48:46 PM, 158Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-12-22T15:52:17 PM, 620Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 22488 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:52:17 PM, 626Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:52:19 PM, 561Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:52:19 PM, 944Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 354ms. Found 3 JPA repository interfaces.
+2020-12-22T15:52:20 PM, 933Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:52:21 PM, 384Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:52:22 PM, 214Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:52:22 PM, 543Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:52:22 PM, 782Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:52:23 PM, 186Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:52:24 PM, 032Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:52:25 PM, 881Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:52:25 PM, 895Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:52:29 PM, 340Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:52:30 PM, 070Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:52:30 PM, 924Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:52:31 PM, 190Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 14.975 seconds (JVM running for 19.568)
+2020-12-22T15:54:21 PM, 209Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 22484 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:54:21 PM, 224Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:54:23 PM, 098Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:54:23 PM, 295Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 167ms. Found 3 JPA repository interfaces.
+2020-12-22T15:54:24 PM, 279Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:54:24 PM, 743Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:54:25 PM, 414Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:54:25 PM, 642Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:54:25 PM, 905Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:54:26 PM, 234Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:54:27 PM, 022Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:54:28 PM, 745Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:54:28 PM, 761Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:54:30 PM, 143Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:54:30 PM, 897Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:54:31 PM, 795Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:54:32 PM, 078Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 11.913 seconds (JVM running for 16.185)
+2020-12-22T15:54:32 PM, 925Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:54:52 PM, 186Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:54:52 PM, 193Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:54:52 PM, 195Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:54:52 PM, 221Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:54:52 PM, 228Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-12-22T15:56:38 PM, 031Z INFO  c.e.a.OrderServiceTest:55 - Starting OrderServiceTest on LAPTOP-QKO0DB0G with PID 21056 (started by NARENDRAN in E:\Dover\ekart)
+2020-12-22T15:56:38 PM, 037Z INFO  c.e.a.OrderServiceTest:651 - No active profile set, falling back to default profiles: default
+2020-12-22T15:56:39 PM, 457Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-22T15:56:39 PM, 671Z INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 183ms. Found 3 JPA repository interfaces.
+2020-12-22T15:56:40 PM, 754Z INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-22T15:56:41 PM, 147Z INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-22T15:56:41 PM, 595Z INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-22T15:56:41 PM, 786Z INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-22T15:56:41 PM, 959Z INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-12-22T15:56:42 PM, 229Z INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-22T15:56:42 PM, 914Z INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-22T15:56:44 PM, 146Z INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-22T15:56:44 PM, 161Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:56:45 PM, 285Z WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22T15:56:45 PM, 851Z INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:56:46 PM, 421Z INFO  o.s.b.a.h.H2ConsoleAutoConfiguration:74 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-12-22T15:56:46 PM, 617Z INFO  c.e.a.OrderServiceTest:61 - Started OrderServiceTest in 9.323 seconds (JVM running for 11.622)
+2020-12-22T15:56:47 PM, 015Z ERROR c.e.a.s.i.OrderLineServiceImpl:48 - Insufficient quantity for the product : Cadbury
+2020-12-22T15:56:47 PM, 035Z INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-22T15:56:47 PM, 043Z INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-22T15:56:47 PM, 047Z INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:524 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-12-22T15:56:47 PM, 100Z INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-22T15:56:47 PM, 106Z INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
